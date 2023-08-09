@@ -39,6 +39,7 @@ ringtail_minus_fox
 
 ```{r}
 100 * ringtail
+-97 * fox
 ```
 
 ### Dot Product
