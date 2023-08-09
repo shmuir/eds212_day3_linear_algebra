@@ -1,0 +1,23 @@
+---
+title: "Linear Algebra Basics"
+format: html
+editor: visual
+---
+
+## Vectors in R
+
+```{r}
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+#all become characters bc different types can't exist in vectors
+```
+
+```{r}
+pika <- c(12.4, 6.8, 2.9, 8.9, 5)
+#all are numeric so it's a numeric vector
+```
+
+```{r}
+bear <- c(20L, 3L, 5L, 18L)
+#adding an L after each number makes them integers
+```
+
