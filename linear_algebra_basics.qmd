@@ -21,3 +21,31 @@ bear <- c(20L, 3L, 5L, 18L)
 #adding an L after each number makes them integers
 ```
 
+
+### Vector Addition and Subtraction
+
+```{r}
+ringtail <- c(4.3, 8.9, 2.6, 7.1)
+fox <- c(9.0, 12.5, 5.4, 10.9)
+
+ringtail_fox <- ringtail + fox
+ringtail_fox
+
+ringtail_minus_fox <- ringtail - fox
+ringtail_minus_fox
+```
+
+### Scalar Multiplier 
+
+```{r}
+100 * ringtail
+```
+
+### Dot Product
+
+```{r}
+ringtail %*% fox
+```
+
+
+
